@@ -1,0 +1,15 @@
+
+{
+	"name": "scout",	
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
+	"remoteUser": "root",
+
+	"postCreateCommand": "./.devcontainer/setup.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.Go"
+			]
+		}
+	}
+}
